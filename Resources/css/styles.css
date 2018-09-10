@@ -1,0 +1,73 @@
+/*
+FFC857
+610a61
+f1c5f1
+3b363b
+*/
+
+:root{
+    --color-primario: #610a61;
+    --letra-primario: #f1c5f1;
+    --letra-secundario: #3b363b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+body{
+    background-color: var(--color-light);
+    font-family: 'Quando', serif;
+}
+
+h1{
+    font-family: 'Knewave', cursive;
+    font-size: 3em;
+    color: var(--color-primario);
+}
+
+.logo-Gro{
+    height: 40px;
+}
+
+.footer-bg-color{
+    background-color: var(--color-primario);
+    color: var(--letra-primario);
+}
+
+.btn-primario{
+    background-color: var(--color-primario);
+    color: var(--letra-primario);
+}
+
+.bg-principal{
+    background-color: var(--color-primario);
+}
+
+
+.navbar .navbar-collapse .navbar-nav  .nav-item  a{
+    color: var(--letra-primario);
+}
+
+.navbar .navbar-brand {
+    color: var(--letra-primario);
+}
+
+.navbar .navbar-brand:hover{
+    color: var(--letra-primario);
+}
+
+.navbar-nav .dropdown-menu{
+    background-color: var(--color-primario);
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover{
+    background-color: var(--color-primario);
+}
+
+.carousel-item{
+    height: 400px;
+} 
