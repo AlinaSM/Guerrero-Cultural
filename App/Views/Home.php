@@ -1,5 +1,4 @@
 
-
 <div class="row">
     <div class="col-12 p-0">
         <img src="./Resources/img/slides/banner_01.jpg" class="img-fluid img-responsive " alt="">

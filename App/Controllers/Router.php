@@ -32,6 +32,22 @@ class Router{
                 case 'Estado':
                     $frm_login->loadView('Estado');
                 break;
+
+                case 'Tradiciones':
+                    $frm_login->loadView('Tradiciones');
+                break;
+                
+                case 'SitiosInteres':
+                    $frm_login->loadView('SitiosInteres');
+                break;
+                
+                case 'Flora':
+                    $frm_login->loadView('Flora');
+                break;
+                
+                case 'Fauna':
+                    $frm_login->loadView('Fauna');
+                break;
             }
 
         }
