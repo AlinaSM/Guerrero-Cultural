@@ -1,7 +1,7 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteBase /Guerrero-Cultural
+RewriteBase /guerrero-cultural
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f

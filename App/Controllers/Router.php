@@ -24,6 +24,9 @@ class Router{
                 case 'Home':
                     $frm_login->loadView('Home');
                 break;
+                case 'Admin':
+                    $frm_login->loadView('Admin');
+                break;
 
                 case 'Login':
                     $frm_login->loadView('Login');
