@@ -23,5 +23,7 @@
         <button class="btn btn-warning btn-lugares m-3" id="MuniNor">Norte</button>
         <button class="btn btn-warning btn-lugares m-3" id="MuniCen">Centro</button>
     </div>
+
+    
     
 </div>
