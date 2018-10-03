@@ -1,1 +1,5 @@
-<h1>Estado</h1>
+<div class="container-fluid">
+    <div class="row">
+        
+    </div>
+</div>
