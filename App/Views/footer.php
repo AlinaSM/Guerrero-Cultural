@@ -1,9 +1,9 @@
 </div>  <!-- Div del cointainer principal -->
 
 <!-- Cargando los archivos Js para Bootstrap-->
-<script src='Resources/js/jquery.slim.min.js'></script>
-<script src='Resources/js/popper.min.js'></script>
-<script src='Resources/js/bootstrap.min.js'></script>
+<script src='../Resources/js/jquery.slim.min.js'></script>
+<script src='../Resources/js/popper.min.js'></script>
+<script src='../Resources/js/bootstrap.min.js'></script>
 
 <footer class="container-fluid  footer-bg-color">
     <div class="row ">

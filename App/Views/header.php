@@ -6,7 +6,7 @@
         </button>
 
         <a class="navbar-brand" href="#">
-            <img class="logo-Gro" src="Resources/img/icons/logo.png">
+            <img class="logo-Gro" src="../Resources/img/icons/logo.png">
             Guerrero Cultural
         </a>
 

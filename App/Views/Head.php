@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php require_once('Favicon.php'); ?>
 
-    <link rel='stylesheet' href='Resources/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='Resources/css/styles.css'>
+    <link rel='stylesheet' href='../Resources/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='../Resources/css/styles.css'>
     <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quando" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lemon" rel="stylesheet">
