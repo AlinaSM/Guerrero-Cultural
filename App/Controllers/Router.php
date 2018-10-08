@@ -57,6 +57,39 @@ class Router{
                 case 'adminEstado':
                     $frm_login->loadView('adminEstado');
                 break;
+
+                case 'adminMunicipios':
+                    $frm_login->loadView('adminMunicipios');
+                break;
+
+                case 'adminRegiones':
+                    $frm_login->loadView('adminRegiones');
+                break;
+
+                case 'adminTradiciones':
+                    $frm_login->loadView('adminTradiciones');
+                break;
+
+                case 'adminSitiosInteres':
+                    $frm_login->loadView('adminSitiosInteres');
+                break;
+                
+                case 'adminFlora':
+                    $frm_login->loadView('adminFlora');
+                break;
+
+                case 'adminFauna':
+                    $frm_login->loadView('adminFauna');
+                break;  
+                
+                case 'adminReligiones':
+                    $frm_login->loadView('adminReligiones');
+                break;
+
+                case 'adminLenguajes':
+                    $frm_login->loadView('adminLenguajes');
+                break;  
+                
             }
 
         }

@@ -2,5 +2,5 @@
     include_once('menu.php');
 ?>
 
-<h1>Estado</h1>
+<h1>Religiones</h1>
     

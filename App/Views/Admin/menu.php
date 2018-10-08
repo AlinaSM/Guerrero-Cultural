@@ -44,34 +44,34 @@
            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
                 <li>
-                    <a class="nav-link mr-4" href="#">Inicio</a>
+                    <a class="nav-link mr-4" href="Home">Inicio</a>
                 </li>
                 <li>
-                    <a class="nav-link mr-4" href="#">Estado</a>
+                    <a class="nav-link mr-4" href="Estado">Estado</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Regiones</a>
+                    <a class="nav-link" href="Regiones">Regiones</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Municipios</a>
+                    <a class="nav-link" href="Municipios">Municipios</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Tradiciones</a>
+                    <a class="nav-link" href="Tradiciones">Tradiciones</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Sitios de Interes</a>
+                    <a class="nav-link" href="SitiosInteres">Sitios de Interes</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Flora</a>
+                    <a class="nav-link" href="Flora">Flora</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Fauna</a>
+                    <a class="nav-link" href="Fauna">Fauna</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Religiones</a>
+                    <a class="nav-link" href="Religiones">Religiones</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#">Lenguajes</a>
+                    <a class="nav-link" href="Lenguajes">Lenguajes</a>
                 </li>
                
             </ul>
