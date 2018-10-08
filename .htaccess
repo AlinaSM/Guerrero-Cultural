@@ -6,5 +6,6 @@ RewriteBase /guerrero-cultural
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-RewriteRule ^pages/(.*)$ index.php?r=$1 [L]
-RewriteRule ^admin/(.*)$ index.php?a=$1 [L]
+RewriteRule ^pages/(.*)$ index.php?t=pages&r=$1 [L]
+RewriteRule ^admin/(.*)$ index.php?t=admin&r=$1 [L]
+RewriteRule ^admin/(.*)$ index.php?t=admin&r=$1 [L]

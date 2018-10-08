@@ -24,14 +24,7 @@ class Router{
                 case 'Home':
                     $frm_login->loadView('Home');
                 break;
-                case 'Admin':
-                    $frm_login->loadView('Admin');
-                break;
-
-                case 'Login':
-                    $frm_login->loadView('Login');
-                break;
-                
+                               
                 case 'Estado':
                     $frm_login->loadView('Estado');
                 break;
@@ -50,6 +43,15 @@ class Router{
                 
                 case 'Fauna':
                     $frm_login->loadView('Fauna');
+                break;
+
+                // Area de la administracion del sitio 
+                case 'Admin':
+                    $frm_login->loadView('Admin');
+                break;
+
+                case 'Login':
+                    $frm_login->loadView('Login');
                 break;
             }
 

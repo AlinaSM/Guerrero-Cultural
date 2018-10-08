@@ -29,6 +29,11 @@
         <button class="btn btn-warning btn-lugares m-2" id="MuniTC">Tierra Caliente</button>
         <button class="btn btn-warning btn-lugares m-2" id="MuniNor">Norte</button>
         <button class="btn btn-warning btn-lugares m-2" id="MuniCen">Centro</button>
+
+        
+        <button class="btn btn-warning btn-lugares m-2" id="MuniTC">Tierra Caliente</button>
+        <button class="btn btn-warning btn-lugares m-2" id="MuniNor">Norte</button>
+        <button class="btn btn-warning btn-lugares m-2" id="MuniCen">Centro</button>
     </div>
 
     <!--  -->
@@ -48,6 +53,9 @@
             </div> 
         </div>
 
+    <!--
+        <iframe src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FI2SOX7kyhfgXo4bFjukk2W3POei1%2Fcontent%2F9dbc6aee-8d4f-11f8-798c-d2fe1b946664&imagePath=screens/0.png" style="width:960px;height:600px;border:0"></iframe>
+    -->
     </main>
 
 </div>

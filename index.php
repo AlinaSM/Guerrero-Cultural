@@ -2,12 +2,20 @@
 require_once('App/Controllers/Autoload.php');
 $autoload = new Autoload();
 
-if(isset($_GET['r'])){
-    $route =  isset($_GET['r']) ? $_GET['r'] : 'Home' ;
+if(isset($_GET['t'])){
+    if($_GET['t'] == 'admin'){
+        $route =  !isset($_GET['r']) ? $_GET['r'] : 'Login' ;
+        
+    }elseif($_GET['t'] == 'pages'){
+        $route =  !isset($_GET['r']) ? $_GET['r'] : 'Home' ;
+    }
+    
     $gro_cultural = new Router( $route );
+    
 }else{
-    $route_admin =  isset($_GET['a']) ? $_GET['a'] : 'Login' ;
-    $gro_cultural_admin = new Router( $route_admin );
+    //$gro_cultural = new Router( "Home" );
 }
+
+
 
 ?>
