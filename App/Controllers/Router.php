@@ -45,13 +45,17 @@ class Router{
                     $frm_login->loadView('Fauna');
                 break;
 
-                // Area de la administracion del sitio 
-                case 'Admin':
+                // Area de la administracion del sitio
+                case 'adminHome':
                     $frm_login->loadView('Admin');
                 break;
 
-                case 'Login':
+                case 'adminLogin':
                     $frm_login->loadView('Login');
+                break;
+
+                case 'adminEstado':
+                    $frm_login->loadView('adminEstado');
                 break;
             }
 

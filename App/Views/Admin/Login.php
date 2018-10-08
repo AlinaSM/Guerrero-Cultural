@@ -1,9 +1,14 @@
+<div class="row p-2">
+    <div class="col">
+        <h3 class="text-center display-4">Sistema de Informacion: Guerrero Cultural</h3>
+    </div>
+</div>
+
 <div class="row m-5">
 <div class="col-xl-4  col-lg-4  col-md-3  col-sm-2  col-1"></div>
 
 <div class="col-xl-4  col-lg-4  col-md-6  col-sm-8  col-10  border rounded p-4 ">
     <form >
-
         <h3 class="text-center p-3" >Inicio de Sesión</h3>
 
         <div class="form-group">

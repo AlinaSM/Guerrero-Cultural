@@ -7,7 +7,7 @@ class ViewController{
     public function loadView( $view ){
         
 
-        if( $view != 'Login' && $view != 'Admin'){
+        if( $view != 'Login' && $view != 'Admin' && $view != 'adminEstado'){
             require_once(self::$view_path .'Head.php');
             require_once(self::$view_path . 'Header.php');
             require_once(self::$view_path . $view . '.php');
@@ -16,6 +16,8 @@ class ViewController{
             require_once(self::$view_admin_path . 'head.php');
             require_once(self::$view_admin_path . 'header.php');
             require_once(self::$view_admin_path . $view . '.php');
+            require_once(self::$view_admin_path . 'footer.php');
+            
         }
 
     }

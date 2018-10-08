@@ -3,13 +3,14 @@ require_once('App/Controllers/Autoload.php');
 $autoload = new Autoload();
 
 if(isset($_GET['t'])){
-    if($_GET['t'] == 'admin'){
-        $route =  !isset($_GET['r']) ? $_GET['r'] : 'Login' ;
+    if($_GET['t'] == 'admin'){//  'admin'+$_GET['r']
+        $route =  $_GET['r'] != '' ? 'admin'.$_GET['r'] : 'adminLogin';
         
     }elseif($_GET['t'] == 'pages'){
-        $route =  !isset($_GET['r']) ? $_GET['r'] : 'Home' ;
+        $route =  isset($_GET['r']) ? 'Home' : $_GET['r'] ;
     }
-    
+
+   // echo $route;
     $gro_cultural = new Router( $route );
     
 }else{

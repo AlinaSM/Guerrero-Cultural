@@ -1,0 +1,68 @@
+:root{
+    --color-primario: #610a61;
+    --letra-primario: #f1c5f1;
+    --letra-secundario: #3b363b;
+}
+
+.logo-Gro{
+    height: 90px;
+}
+
+.hg-header{
+    height: 120px;
+}
+
+.bg-color-primario{
+    background-color: #354886;
+}
+
+.navbar .navbar-collapse .navbar-nav  li a{
+    color: #FDD835;
+}
+
+.navbar .navbar-collapse .navbar-nav  li a:hover{
+    color: #e6e6e6;
+}
+
+/*** sidebar**/
+.contenedor-proyectos {
+    min-height: 80vh;
+    max-width: 300px;
+    background-color: #610a61;
+    padding-top: 1rem;
+}
+.panel {
+    padding: 1rem;
+    margin: 0;
+}
+.panel a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.panel h2 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.crear-proyecto i {
+    margin-left: 1rem;
+}
+.crear-proyecto a {
+    color: #FDD835;
+}
+
+.lista-proyectos ul{
+    list-style: none;
+    padding: 1.5rem 0 0 0;
+    margin: 0;
+}
+.lista-proyectos ul li {
+    margin-bottom: 1rem;
+}
+.lista-proyectos ul li a:hover {
+    color: #FDD835;
+}
