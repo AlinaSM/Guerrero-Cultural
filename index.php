@@ -4,7 +4,7 @@ $autoload = new Autoload();
 
 if(isset($_GET['t'])){
     if($_GET['t'] == 'admin'){
-        $route =  $_GET['r'] != '' ? 'admin'.$_GET['r'] : 'adminLogin';
+        $route =  $_GET['r'] != '' ? 'admin'.$_GET['r'] : 'Login';
         
     }elseif($_GET['t'] == 'pages'){
         $route =  isset($_GET['r']) ? 'Home' : $_GET['r'] ;
@@ -14,7 +14,5 @@ if(isset($_GET['t'])){
 }else{
     header('Location: pages/Home');
 }
-
-
 
 ?>

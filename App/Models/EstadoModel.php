@@ -28,7 +28,7 @@ class EstadoModel extends Model{
     public function read( $id ='' ){
         $this->query = ( $id != '') 
                         ? "SELECT * FROM estados WHERE id_estado = $id;" 
-                        : "SELECT * FROM estados;";
+                        : "SELECT * FROM estados WHERE id_estado = 'MX-GRO';";
         $this->getQuery();
 
         return $this->rows;

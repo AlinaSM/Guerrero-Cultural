@@ -50,7 +50,7 @@ class Router{
                     $frm_login->loadView('Admin');
                 break;
 
-                case 'adminLogin':
+                case 'Login':
                     $frm_login->loadView('Login');
                 break;
 

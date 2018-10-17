@@ -1,5 +1,4 @@
 <?php
-//require_once('Model.php');
 
 class TipoTradiocionesModel extends Model{
     private $id;
